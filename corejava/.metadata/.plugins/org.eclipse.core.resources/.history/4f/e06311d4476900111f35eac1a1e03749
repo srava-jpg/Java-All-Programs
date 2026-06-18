@@ -1,0 +1,26 @@
+package sravan3.java;
+
+public class methods {
+	
+	public static void main(String[] args) {
+		System.out.println("sravan");
+		hello1();
+	}
+	
+	void hello() {
+		methods a = new methods();
+		a.hello2();
+		System.out.println("kumar");
+	}
+	
+	public static void hello1() {
+		System.out.println("pavan");
+	}
+	
+	void hello2(){
+		methods b = new methods();
+		b.hello();
+		System.out.println("suresh");
+	}
+}
+

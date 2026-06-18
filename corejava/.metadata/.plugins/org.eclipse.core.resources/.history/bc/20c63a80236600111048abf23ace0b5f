@@ -1,0 +1,22 @@
+package sravan2.java;
+
+public class employee {
+	int count = 0;
+
+		{
+			System.out.println("instance started");
+		}
+		
+		public static void main(String[] args) {
+			employee a = new employee();
+			count = count +1 ;
+			employee b = new employee();
+			employee c = new employee();
+			
+
+	
+}
+	
+	
+	
+}

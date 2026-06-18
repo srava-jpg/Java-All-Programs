@@ -1,0 +1,39 @@
+package methods;
+
+public class method2 {
+	
+	
+
+	public static void main() {
+		System.out.println("sravan");
+		method2 a = new method2();
+		a.hello1();
+	}
+	
+	void hello1() {
+		System.out.println("kumar");
+		hello2();+
+	}
+	public static void hello2(){
+		System.out.println("pavan");
+		method2 b = new method2();
+		b.hello3();
+	}
+	
+	
+	void hello3() {
+		System.out.println("suresh");
+		hello4();
+	}
+	
+	public static void hello4(){
+		System.out.println("dhoni");
+		method2 c = new method2();
+		c.hello5();
+	}
+	
+	void hello5() {
+		System.out.println("sachin");
+	}
+	
+}

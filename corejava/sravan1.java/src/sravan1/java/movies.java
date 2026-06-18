@@ -1,0 +1,34 @@
+package sravan1.java;
+
+public class movies {
+
+	int empId;
+	String empName;
+	int salary;
+	static String depa;
+
+	public static void main(String[] args) {
+		
+		depa = "back-end";
+		System.out.println(depa);
+		movies name = new movies();
+		name.empId = 1234;
+		name.empName = "sravan";
+		name.salary = 10000;
+		name.depa = "java full stack developer";
+
+		System.out.println(name.empId);
+		System.out.println(name.empName);
+		System.out.println(name.salary);
+
+		movies abc = new movies();
+		abc.empId = 4567;
+
+		abc.empName = "kumar";
+		abc.salary = 20000;
+		abc.depa = "front end developer";
+		System.out.println(abc.empId);
+		System.out.println(abc.empName);
+		System.out.println(abc.salary);
+	}
+}

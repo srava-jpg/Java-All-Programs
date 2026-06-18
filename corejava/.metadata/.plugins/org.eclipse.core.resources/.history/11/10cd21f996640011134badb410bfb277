@@ -1,0 +1,16 @@
+package sravan1.java;
+
+public class movies {
+	static String movieName;
+	static String industry;
+	
+	void main() {
+		 
+		System.out.println(movieName);
+		
+}
+	static {
+		indusrty ="tollywood";
+		System.out.println(industry);
+	}
+}
